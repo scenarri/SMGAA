@@ -2,7 +2,7 @@
 Code for the paper "[Scattering Model Guided Adversarial Examples for SAR Target Recognition: Attack and Defense](https://ieeexplore.ieee.org/abstract/document/9915465)".  It will be available soon.
 
 ## Preparation
-Please download [model weights](https://pan.baidu.com/s/1HKW6VkEybYB0M3N84IInjg?pwd=5631&_at_=1706016266118#list/path=%2F) and our test set ([BaiduNetdisk](https://pan.baidu.com/s/1p8sUmnCXwnRdt7vMFomWJg?pwd=5631)/[GoogleDrive](https://drive.google.com/file/d/1Kww4LH8_5F6HJob_k6OLO2Y9)), and arrange them to './models/' and './dataset/' respectively. Please modify your torchvision.datasets.folder with the following code to automatically load the .pt file:
+Please download [model weights](https://pan.baidu.com/s/1HKW6VkEybYB0M3N84IInjg?pwd=5631&_at_=1706016266118#list/path=%2F) and our test set ([BaiduNetdisk](https://pan.baidu.com/s/1p8sUmnCXwnRdt7vMFomWJg?pwd=5631)/[GoogleDrive](https://drive.google.com/file/d/1Kww4LH8_5F6HJob_k6OLO2Y9E2K25Kjm/view?usp=sharing)), and arrange them to './models/' and './dataset/' respectively. Please modify your torchvision.datasets.folder with the following code to automatically load the .pt file:
 
 ```
 import torch
